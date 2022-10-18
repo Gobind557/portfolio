@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/aos.css" rel="stylesheet" />
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/kursor.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo" data-aos-delay="200" data-aos="fade-down">
+          <img src="" alt="" />
+        </div>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li
+              class="services active"
+              data-aos-delay="200"
+              data-aos="fade-down"
+            >
+              <a href="#services">Services</a>
+            </li>
+            <li class="portfolios" data-aos-delay="250" data-aos="fade-down">
+              <a href="#portfolios">Portfolios</a>
+            </li>
+            <li
+              class="education-skill mobile-link"
+              data-aos-delay="350"
+              data-aos="fade-down"
+            >
+              <a href="#education-skill">Education</a>
+            </li>
+            <li
+              class="contact mobile-link"
+              data-aos-delay="350"
+              data-aos="fade-down"
+            >
+              <a href="#contact">Contact</a>
+            </li>
+            <li class="mobile-link" data-aos-delay="350" data-aos="fade-down">
+              <a href="assets/resume.pdf">Resume</a>
+            </li>
+            <li
+              data-aos-delay="400"
+              data-aos="fade-down"
+              class="more-links"
+            ></li>
+            <li class="education-skill">
+              <a href="#education-skill">Education</a>
+            </li>
+            <li class="contact"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="right-content" data-aos-delay="500" data-aos="fade-down">
+          <div class="theme-color-toggle">
+            <svg class="moon" viewBox="0 0 24 24">
+              <use xlink:href="assets/img/sprite.svg#moon-icon"></use>
+            </svg>
+            <svg class="sun" viewBox="0 0 24 24">
+              <use xlink:href="assets/img/sprite.svg#sun-icon"></use>
+            </svg>
+          </div>
+          <a
+            href="assets/resume.pdf"
+            target="_blank"
+            class="btn btn-outline-light download-resume"
+            >Resume</a
+          >
+          <svg class="mobile-menu-toggle" viewBox="0 0 24 24">
+            <use xlink:href="assets/img/sprite.svg#menu"></use>
+          </svg>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="content" data-aos="fade-up">
+            <p class="above-title mb-16">My name is</p>
+            <h1 class="full-name">Gobind</h1>
+            <p class="about">
+              Creative front-end developer with more than 2+ years of experience
+              in . Proficient in JavaScript, Node, and React.
+            </p>
+            <a
+              href="assets/resume.pdf"
+              target="_blank"
+              class="btn btn-outline-light download-resume-mobile"
+              >Download Resume</a
+            >
+            <ul class="social-icons">
+              <li>
+                <a href="https://www.instagram.com/gobind9778/">
+                  <svg viewBox="0 0 24 24">
+                    <use
+                      xlink:href="assets/img/sprite.svg#instagram-icon"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Gobind557">
+                  <svg viewBox="0 0 24 24">
+                    <use xlink:href="assets/img/sprite.svg#github-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/gobind65109162">
+                  <svg viewBox="0 0 24 24">
+                    <use xlink:href="assets/img/sprite.svg#twitter-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/gobind-singh-b359221ba/">
+                  <svg viewBox="0 0 24 24">
+                    <use xlink:href="assets/img/sprite.svg#linkedin-icon"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="image" data-aos="fade-up">
+            <div class="cover">
+              <svg class="lines-vector" viewBox="0 0 199 210">
+                <use xlink:href="assets/img/sprite.svg#lines-vector"></use>
+              </svg>
+            </div>
+            <img class="avatar" src="assets/img/avatar.png" alt="Alex Smith" />
+          </div>
+        </div>
+      </section>
+      <section class="service-section" id="services">
+        <div class="container">
+          <div class="section-name center" data-aos="fade-up">
+            <div class="content">
+              <p class="above-title">Services</p>
+              <h4 class="title">Specialized in</h4>
+            </div>
+          </div>
+          <div class="service-item-wrapper">
+            <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon">
+                <svg viewBox="0 0 25 24">
+                  <use xlink:href="assets/img/sprite.svg#ux-service"></use>
+                </svg>
+              </div>
+              <h4 class="title">UI/UX Design</h4>
+              <p class="body">
+                Turn what you have in mind of a digital product into reality.
+                For any platform you consider.
+              </p>
+            </div>
+            <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon">
+                <svg viewBox="0 0 25 24">
+                  <use xlink:href="assets/img/sprite.svg#web-development"></use>
+                </svg>
+              </div>
+              <h4 class="title">Web Development</h4>
+              <p class="body">
+                Create and maintain your websites and also take care of its
+                performance and traffic capacity
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio-section" id="portfolios">
+        <div class="container">
+          <div class="section-name" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <p class="above-title">My works</p>
+              <h4 class="title">Featured Portfolios</h4>
+            </div>
+            <div class="slider-navigation">
+              <div class="prev">
+                <svg viewBox="0 0 24 24">
+                  <use xlink:href="assets/img/sprite.svg#arrow-left"></use>
+                </svg>
+              </div>
+              <div class="next">
+                <svg viewBox="0 0 24 24">
+                  <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item-wrapper">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <article class="portfolio-item">
+                    <figure>
+                      <img src="assets/img/port-1.png" />
+                    </figure>
+                    <div class="detail">
+                      <h4 class="title">Heroku Clone.</h4>
+                      <div class="bottom">
+                        <span class="tag">HTML/CSS</span>
+                        <a class="link" href="https://lorikii.netlify.app/">
+                          <svg viewBox="0 0 24 24">
+                            <use xlink:href="assets/img/sprite.svg#link"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <article class="portfolio-item">
+                    <figure>
+                      <img src="assets/img/port-2.png" />
+                    </figure>
+                    <div class="detail">
+                      <h4 class="title">Dashboard Website.</h4>
+                      <div class="bottom">
+                        <span class="tag">React</span>
+                        <a class="link" href="https://spacyyy.netlify.app/">
+                          <svg viewBox="0 0 24 24">
+                            <use xlink:href="assets/img/sprite.svg#link"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <article class="portfolio-item">
+                    <figure>
+                      <img src="assets/img/portfolio-item-3.jpg" />
+                    </figure>
+                    <div class="detail">
+                      <h4 class="title">Support Center Website.</h4>
+                      <div class="bottom">
+                        <span class="tag">HTML/CSS</span>
+                        <a class="link" href="#">
+                          <svg viewBox="0 0 24 24">
+                            <use xlink:href="assets/img/sprite.svg#link"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <article class="portfolio-item">
+                    <figure>
+                      <img src="assets/img/portfolio-item-4.jpg" />
+                    </figure>
+                    <div class="detail">
+                      <h4 class="title">Blog Website.</h4>
+                      <div class="bottom">
+                        <span class="tag">React</span>
+                        <a class="link" href="#">
+                          <svg viewBox="0 0 24 24">
+                            <use xlink:href="assets/img/sprite.svg#link"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-----------Education Skills---------->
+
+      <section class="education-skill-section" id="education-skill">
+        <div class="container">
+          <div class="section-name" data-aos="fade-up">
+            <p class="above-title">Learning Path</p>
+            <h4 class="title">Education & Skills</h4>
+          </div>
+          <div class="education-skill-wrapper">
+            <div class="education">
+              <div
+                class="education-item"
+                data-aos="fade-up"
+                data-aos-delay="150"
+              >
+                <h4 class="school">Thapar University</h4>
+                <p class="degree-field">
+                  Bachelor's degree - Computer Engineering
+                </p>
+                <p class="date">2020-2024</p>
+              </div>
+              <div
+                class="education-item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h4 class="school">Punjab Children Academy</h4>
+                <p class="degree-field">Senior Secondary Education</p>
+                <p class="date">2018 - 2020</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p class="description" data-aos="fade-up" data-aos-delay="50">
+                For 2+ years, I have been continuously learning in the field of
+                front-end and experimenting with new technologies and
+                frameworks, and here you can see a summary of my skills.
+              </p>
+              <div
+                class="progress-bar-wrapper"
+                data-aos="fade-up"
+                data-aos-delay="50"
+              >
+                <div class="progress-bar">
+                  <p class="label">React</p>
+                  <div class="main-bar">
+                    <div class="fill" data-width="70"></div>
+                  </div>
+                </div>
+                <div class="progress-bar">
+                  <p class="label">Node.js</p>
+                  <div class="main-bar">
+                    <div class="fill" data-width="60"></div>
+                  </div>
+                </div>
+                <div class="progress-bar">
+                  <p class="label">JavaScript</p>
+                  <div class="main-bar">
+                    <div class="fill" data-width="55"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-form">
+              <form name="contactForm">
+                <p class="success-submit-message">
+                  Your message has been successfully sent.
+                </p>
+                <p class="fail-submit-message">
+                  An error occurred while sending the message.
+                </p>
+                <div class="form-control">
+                  <input
+                    name="name"
+                    class="mb-16"
+                    type="text"
+                    placeholder="Name"
+                    data-aos="fade-up"
+                    data-aos-delay="50"
+                  />
+                  <p class="validation-error name">Please enter your name.</p>
+                </div>
+                <div class="form-control">
+                  <input
+                    name="email"
+                    class="mb-24"
+                    type="text"
+                    placeholder="Email"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  />
+                  <p class="validation-error email">
+                    Please enter a valid email address.
+                  </p>
+                </div>
+                <div class="form-control">
+                  <textarea
+                    name="message"
+                    rows="8"
+                    placeholder="Message"
+                    data-aos="fade-up"
+                    data-aos-delay="150"
+                  ></textarea>
+                  <p class="validation-error message">
+                    Please enter your message.
+                  </p>
+                </div>
+                <button
+                  class="btn btn-primary submit-btn"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  Submit
+                  <span class="loading"></span>
+                </button>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div
+                class="contact-info-item"
+                data-aos="fade-up"
+                data-aos-delay="50"
+              >
+                <div class="icon">
+                  <svg viewBox="0 0 24 24">
+                    <use xlink:href="assets/img/sprite.svg#address-icon"></use>
+                  </svg>
+                </div>
+                <div class="content">
+                  <h4 class="title">Location</h4>
+                  <p class="body">Punjab,India</p>
+                </div>
+              </div>
+              <div
+                class="contact-info-item"
+                data-aos="fade-up"
+                data-aos-delay="150"
+              >
+                <div class="icon">
+                  <svg viewBox="0 0 24 24">
+                    <use xlink:href="assets/img/sprite.svg#phone-icon"></use>
+                  </svg>
+                </div>
+                <div class="content">
+                  <h4 class="title">Phone</h4>
+                  <p class="body">9779590965</p>
+                </div>
+              </div>
+              <div
+                class="contact-info-item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="icon">
+                  <svg viewBox="0 0 24 24">
+                    <use xlink:href="assets/img/sprite.svg#email-icon"></use>
+                  </svg>
+                </div>
+                <div class="content">
+                  <h4 class="title">Email</h4>
+                  <p class="body">gobindjeet78@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="social-icons" data-aos="fade-up" data-aos-delay="50">
+        <li>
+          <a href="https://www.instagram.com/gobind9778/">
+            <svg viewBox="0 0 24 24">
+              <use xlink:href="assets/img/sprite.svg#instagram-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Gobind557">
+            <svg viewBox="0 0 24 24">
+              <use xlink:href="assets/img/sprite.svg#github-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/gobind65109162">
+            <svg viewBox="0 0 24 24">
+              <use xlink:href="assets/img/sprite.svg#twitter-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/gobind-singh-b359221ba/">
+            <svg viewBox="0 0 24 24">
+              <use xlink:href="assets/img/sprite.svg#linkedin-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p class="copyright" data-aos="fade-up" data-aos-delay="100">
+        © <span class="year">year</span> <span class="bold"> 2022</span>
+      </p>
+    </footer>
+  </body>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/kursor.js"></script>
+  <script src="assets/js/svg4everybody.min.js"></script>
+  <script src="assets/js/css-vars-ponyfill.min.js"></script>
+  <script src="assets/js/unfetch.js"></script>
+  <script src="./script.js"></script>
+</html>
