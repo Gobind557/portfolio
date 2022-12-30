@@ -104,20 +104,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             prevEl: '.slider-navigation .prev',
         },
     });
-    // Experiences
-    document.querySelector(".experience-section .companies-list").addEventListener('click', function (e) {
-        e.preventDefault();
-        if (e.target.tagName === 'LI') {
-           window.innerWidth > 992 ? document.querySelector(".experience-section .selector").style.top = e.target.offsetTop + 'px' : null;
-            document.querySelector(".experience-section .companies-list li.active").classList.remove('active')
-            e.target.classList.add('active');
-            var targetTab = e.target.getAttribute('data-tab');
-            if (targetTab) {
-                document.querySelector(".experience-section .content.active").classList.remove('active')
-                document.getElementById(targetTab).classList.add('active')
-            }
-        }
-    });
+  
     // Skill
     var bars = document.querySelectorAll(".progress-bar .main-bar .fill");
     window.addEventListener("scroll", function () {
