@@ -295,8 +295,8 @@ input[type='text']::placeholder, input[type='email']::placeholder,::placeholder 
     justify-content: space-between;
 }
 .header .logo {
-    width: 113px;
-    height: 40px;
+    width: 13px;
+    height: 10px;
     fill: var(--cinder);
     cursor: pointer;
 }
